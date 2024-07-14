@@ -1,0 +1,104 @@
+* {
+    border-radius: 0 !important;
+}
+
+body,
+html {
+    font-family: Inter, sans-serif;
+    /* position: relative; */
+    background-color: #ecf2f7;
+    /* background-color: rgba(244, 243, 243, 0.65); */
+}
+
+h5 {
+    font-family: RobotoDraft, "Helvetica Neue", sans-serif;
+}
+
+h5 a {
+    text-decoration: none;
+    color: #000;
+}
+
+h5 a:hover {
+    color: #cfb401;
+}
+
+/* navbar */
+.navbar-custom {
+    background: #1F4290;
+    /* background: -moz-linear-gradient(100deg, #21409a 50%, #007cbd 100%);
+    background: -webkit-linear-gradient(100deg, #21409a 50%, #007cbd 100%);
+    background: linear-gradient(100deg, #21409a 50%, #007cbd 100%); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.navbar-custom a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px 0 10px;
+}
+
+.navbar-custom a:hover {
+    color: #eacb00;
+}
+
+
+.bg-content {
+    position: relative;
+    min-height: 700px;
+    background-color: #dfecf8;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bg-content h3 {
+    width: 50px;
+    position: relative;
+    border-bottom: 5px solid #1F4290;
+    /* to top - at 50% transparent */
+    border-image-slice: 1;
+    margin-bottom: 10px;
+    font-family: 'Handlee', serif;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #eacb00;
+    --bs-btn-active-bg: #eacb00;
+    color: #000;
+    cursor: pointer;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0px;
+    background-color: #effdfb;
+    border-width: 4px;
+    --tw-shadow: 15px 15px 0 #000;
+    --tw-shadow-colored: 15px 15px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+}
+
+/* .card:hover { */
+/* border: 1px solid rgb(9, 64, 160);
+    border-radius: 30px;
+    box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.2), 0 4px 15px -2px rgba(0, 0, 0, 0.1); */
+/* --tw-shadow: 15px 15px 0 #000;
+    --tw-shadow-colored: 15px 15px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
+/* } */
+
+.site-footer {
+    position: relative;
+    background: #1F4290;
+    width: 100%;
+}
